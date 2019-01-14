@@ -5,7 +5,11 @@
 [![Docker Build](https://img.shields.io/docker/build/opendevsecops/cohesion.svg)](https://hub.docker.com/r/opendevsecops/cohesion/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/926c15e9744940ec96b092bdffc04542)](https://www.codacy.com/app/OpenDevSecOps/docker-cohesion?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=opendevsecops/docker-cohesion&amp;utm_campaign=Badge_Grade)
 
-# Getting Started
+# Docker Cohesion
+
+The container entry point is controlled by [launcher](https://github.com/opendevsecops/go-launcher) which provides additional features useful when used in cloud environments.
+
+## Getting Started
 
 This container is built automatically by Docker Hub. Simply pull to get latest build.
 
