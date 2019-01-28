@@ -9,7 +9,7 @@
 
 This is a docker container for SecApps [Cohesion](https://secapps.com/cohesion).
 
-The container entry point is controlled by [launcher](https://github.com/opendevsecops/go-launcher) which provides additional features useful when used in cloud environments.
+The container entry point is controlled by [launcher](https://github.com/opendevsecops/go-launcher) utility which provides additional features useful when used in cloud environments. This is subject to changes.
 
 ## Getting Started
 
@@ -18,3 +18,11 @@ This container is built automatically by Docker Hub. Simply pull to get latest b
 ```sh
 docker pull opendevsecops/cohesion
 ```
+
+Run cohesion with docker.
+
+```sh
+docker run -it opendevsecops/pown
+```
+
+See [Cohesion](https://secapps.com/cohesion) official site for more information.
